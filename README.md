@@ -316,79 +316,44 @@ Static files remain accessible without the prefix.
 
 
 
-
 ## 🚀 How to Build and Run
-
-
-
-
 
 ### 1️⃣ Clone the Repository
 
-
-
-
-
+```
+git clone https://github.com/Karol2905/-Microframeworks-WEB
+cd -Microframeworks-WEB
 ```
 
-
-git clone <https://github.com/Karol2905/-Microframeworks-WEB>
-
-
-cd <-Microframeworks-WEB>
-
+### 2️⃣ Build with Maven
 
 ```
+mvn clean install
+```
 
-
-
-
-
-### 2️⃣ Run the Application
-
-
-
-
+### 3️⃣ Run the Application
 
 Run:
 
-
-
-
-
 ```
-
-
 MathServices.java
-
-
 ```
 
+Or:
 
+```
+mvn exec:java
+```
 
 
 
 The server runs on:
 
-
-
-
-
 ```
-
-
 http://localhost:35000
-
-
 ```
-
-
-
-
 
 ---
-
-
 
 
 
@@ -500,3 +465,6 @@ src/
 
 
 ---
+
+
+
