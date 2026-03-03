@@ -332,10 +332,10 @@ Static files remain accessible without the prefix.
 ```
 
 
-git clone <your-repository-url>
+git clone <https://github.com/Karol2905/-Microframeworks-WEB>
 
 
-cd <project-folder>
+cd <-Microframeworks-WEB>
 
 
 ```
@@ -447,38 +447,16 @@ src/
 
 
  └── main/
-
-
      ├── java/
-
-
      │   └── com/example/demo/
-
-
      │       ├── HttpServer.java
-
-
      │       ├── HttpRequest.java
-
-
      │       ├── HttpResponse.java
-
-
      │       ├── WebMethod.java
-
-
      │       └── appexamples/
-
-
      │           └── MathServices.java
-
-
      └── resources/
-
-
          └── webroot/
-
-
              └── index.html
 
 
